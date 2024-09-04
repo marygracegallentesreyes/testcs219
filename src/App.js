@@ -1,12 +1,11 @@
-import './App.css';
+import Greeting from './Greeting';
 
 function App() {
   return (
     <div>
-  <h1>Hello, React!</h1>
-  <p>This is a simple JSX example.</p>
-</div>
-
+      <Greeting />
+      <p>This is your first custom component.</p>
+    </div>
   );
 }
 
